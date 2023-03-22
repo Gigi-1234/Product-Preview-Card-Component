@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 208, 181);
+    height: 100vh;
+    font-family: 'Montserrat', 'sans-serif';
+    padding: 28px 16px;
+}
+
+.card-container {
+    width: 343px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 264px 24px 24px 24px;
+    background-image: url('./images/image-product-mobile.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.chanel {
+    width: 100%;
+}
+h6 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6C7289;;
+}
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #1C232B;
+    line-height: 32px;
+    font-family: 'Fraunces';
+    margin-top: 12px;
+}
+p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+    margin-top: 16px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3D8168;
+    margin-top: 24px;
+    font-family: 'fraunces';
+    display: flex;
+    justify-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+}
+span {
+    margin-left: 19px;
+    font-weight: 500;
+    font-size: 13px;
+    width: 48px;
+    line-height: 23px;
+    color: #6C7289;
+    text-decoration: line-through;
+    font-family: 'Montserrat';
+}
+button {
+    width: 295px;
+    height: 48px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: none;
+    background-color: #3D8168;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11.61px;
+    font-size: 14px;
+    line-height: 17.07px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #1A4032;
+    cursor: pointer;
+}
+/* Desktop Responsive 1440px */
+
+@media (min-width: 1440px) { 
+    .card-container {
+        width: 600px;
+        padding: 32px 31.5px 32px 331.5px;
+        height: 450px;
+        background-image: url(./images/image-product-desktop.jpg);
+        background-size: 300px 100%;
+    }
+    h6 {
+        line-height: 15px;
+        font-size: 12px;
+    }
+    h1 {
+        margin-top: 20px;
+    }
+    p {
+        margin-top: 24px;
+    }
+    h2 {
+        margin-top: 29px;
+    }
+    button {
+        margin-top: 30px;
+        width: 236px;
+        height: 48px;
+    }
+}
